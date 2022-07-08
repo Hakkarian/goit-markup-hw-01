@@ -1,0 +1,170 @@
+:root {
+    --primary-text-color: rgba(255, 255, 255, 0.6);
+    --title-text-color: #000000;
+    --accent-color: #2196F3;
+    --hero-button: #ffffff;
+    --section-title: #212121;
+}
+
+.style {
+    font-family: 'Roboto';
+}
+
+.all-body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    background-color: var(--hero-button);
+
+}
+
+.page-header {
+    background-color: var(--hero-button);
+}
+
+.logo-link {
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.logo-accent {
+
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+
+    color: var(--title-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.site-link {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.site-links {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.site-links:hover,
+.site-links:focus {
+    color: var(--accent-color);
+}
+
+.auth-link {}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--hero-button);
+    text-transform: uppercase;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--hero-button);
+
+
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.features {
+    background-color: var(--hero-button);
+}
+
+.features-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.features-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.section {
+    background-color: var(--hero-button);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--section-title)
+}
+
+.command {
+    background-color: #F5F4FA;
+    ;
+    color: var(--section-title)
+}
+
+.command-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--section-title)
+}
+
+.footer {
+    background-color: #2F303A;
+    ;
+    color: var(--hero-button);
+}
+
+.footer-accent {
+    color: var(--hero-button);
+}
+
+.footer-adress {
+    color: var(--hero-button);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-email,
+.footer-phone {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
+}
